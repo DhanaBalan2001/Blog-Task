@@ -31,10 +31,10 @@ app.use(cors({
 }));
 app.use(express.json());
 
-// Serve API documentation at root URL
-app.get('/', (req, res) => {
-    res.redirect('/api/doc');
-});
+// // Serve API documentation at root URL
+// app.get('/', (req, res) => {
+//     res.redirect('/api/doc');
+// });
 
 // Routes
 app.use('/api/auth', authRoutes);
