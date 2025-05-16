@@ -34,7 +34,7 @@ A full-stack MERN (MongoDB, Express, React, Node.js) application for creating, m
 1. #Clone the repository
    ```bash
    git clone <repository-url>
-   cd financial-management-backend
+   cd client
    ```
 
 2. #Install dependencies
