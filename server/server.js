@@ -33,7 +33,7 @@ app.use(express.json());
 
 // Serve API documentation at root URL
 app.get('/', (req, res) => {
-    res.redirect('/api/docs');
+    res.redirect('/api/doc');
 });
 
 // Routes
